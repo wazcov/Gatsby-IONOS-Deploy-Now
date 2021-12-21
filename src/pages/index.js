@@ -30,14 +30,14 @@ const HomeIndex = () => {
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Learn More
+                More Information
               </a>
             </li>
           </ul>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Portfolio</h2>
 
           <Gallery />
 
@@ -51,15 +51,20 @@ const HomeIndex = () => {
         </section>
 
         <section id="three">
+          <h2>Another Section</h2>
+          <p>
+            You can add more sections like this. By the way all these photos are from Pexels, a fantastic site for free photos.
+          </p>
+        </section>
+
+        <section id="four">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            We&apos;d love to hear from you! Contact us using the form:
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              <form method="post" action="">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -99,23 +104,23 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  10 Downing Street,
                   <br />
-                  Nashville, TN 00000
+                  London
                   <br />
-                  United States
+                  United Kingdom
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  01234 567890
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">hello@example.com</a>
                 </li>
               </ul>
             </div>

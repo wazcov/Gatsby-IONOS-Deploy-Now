@@ -10,9 +10,9 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>Gatsby Starteer</strong>, an example
+        <strong>Gatsby Starter</strong>, an example
         <br />
-        to get started with IONOS Deploy NOw
+        to get started with IONOS Deploy Now
         <br />
         coded by <a target="_blank" href="https://devscover.com">Devscover</a>.
       </h1>

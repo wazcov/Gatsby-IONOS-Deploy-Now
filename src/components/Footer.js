@@ -10,7 +10,7 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-github">
+          <a href="https://github.com/wazcov/Gatsby-IONOS-Deploy-Now" className="icon fa-github">
             <span className="label">Github</span>
           </a>
         </li>

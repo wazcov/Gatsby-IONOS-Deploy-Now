@@ -1,58 +1,40 @@
-import full01 from '../../../assets/images/fulls/01.jpg'
-import full02 from '../../../assets/images/fulls/02.jpg'
-import full03 from '../../../assets/images/fulls/03.jpg'
-import full04 from '../../../assets/images/fulls/04.jpg'
-import full05 from '../../../assets/images/fulls/05.jpg'
-import full06 from '../../../assets/images/fulls/06.jpg'
-import thumb02 from '../../../assets/images/thumbs/02.jpg'
-import thumb01 from '../../../assets/images/thumbs/01.jpg'
-import thumb03 from '../../../assets/images/thumbs/03.jpg'
-import thumb04 from '../../../assets/images/thumbs/04.jpg'
-import thumb05 from '../../../assets/images/thumbs/05.jpg'
-import thumb06 from '../../../assets/images/thumbs/06.jpg'
+import a_sm from '../../../assets/images/portfolio/a_sm.jpg'
+import a_md from '../../../assets/images/portfolio/a_md.jpg'
+import b_sm from '../../../assets/images/portfolio/b_sm.jpg'
+import b_md from '../../../assets/images/portfolio/b_md.jpg'
+import c_sm from '../../../assets/images/portfolio/c_sm.jpg'
+import c_md from '../../../assets/images/portfolio/c_md.jpg'
+import d_sm from '../../../assets/images/portfolio/d_sm.jpg'
+import d_md from '../../../assets/images/portfolio/d_md.jpg'
 
 
 export const DEFAULT_IMAGES = [
     {
-      id: '1',
-      source: full01,
-      thumbnail: thumb01,
-      caption: 'Photo 1',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+        id: '1',
+        source: a_md,
+        thumbnail: a_sm,
+        caption: 'Project 1',
+        description: 'Some information about this client or piece of work...',
     },
     {
-      id: '2',
-      source: full02,
-      thumbnail: thumb02,
-      caption: 'Photo 2',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+        id: '2',
+        source: b_md,
+        thumbnail: b_sm,
+        caption: 'Project 2',
+        description: 'Some information about this client or piece of work...',
     },
     {
-      id: '3',
-      source: full03,
-      thumbnail: thumb03,
-      caption: 'Photo 3',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+        id: '3',
+        source: c_md,
+        thumbnail: c_sm,
+        caption: 'Project 3',
+        description: 'Some information about this client or piece of work...',
     },
     {
-      id: '4',
-      source: full04,
-      thumbnail: thumb04,
-      caption: 'Photo 4',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-    },
-    {
-      id: '5',
-      source: full05,
-      thumbnail: thumb05,
-      caption: 'Photo 5',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-    },
-    {
-      id: '6',
-      source: full06,
-      thumbnail: thumb06,
-      caption: 'Photo 6',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+        id: '4',
+        source: d_md,
+        thumbnail: d_sm,
+        caption: 'Project 4',
+        description: 'Some information about this client or piece of work...',
     }
 ]
